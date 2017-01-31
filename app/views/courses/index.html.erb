@@ -1,0 +1,6 @@
+<h1>Courses#show_course</h1>
+
+<% @courses.each do |c|  %>
+  <%= link_to c.field,course_path(c) %>
+    <br>
+<% end %>
